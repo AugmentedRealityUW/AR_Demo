@@ -112,7 +112,10 @@
 			wid.setStyle({chain:'B'},{cartoon:{color:'cyan'}});
 			wid.setStyle({chain:'C'},{cartoon:{color:'white'}});
 			wid.setStyle({chain:'D'},{cartoon:{color:'blue'}});
-			wid.setStyle({resi:['75','76','77','78']},{stick:{colorscheme:"cyanCarbon"}})
+			wid.setStyle({resi:['75']},{stick:{colorscheme:"cyanCarbon"},cartoon:{color:'cyan'}})
+			wid.setStyle({resi:['76']},{stick:{colorscheme:"cyanCarbon"},cartoon:{color:'cyan'}})
+			wid.setStyle({resi:['77']},{stick:{colorscheme:"cyanCarbon"},cartoon:{color:'cyan'}})
+			wid.setStyle({resi:['78']},{stick:{colorscheme:"cyanCarbon"},cartoon:{color:'cyan'}})
 			wid.setStyle({elem:'K'},{sphere: {scale: 0.7}})
 			wid.zoomTo();
 			wid.rotate(180,'y',1);
@@ -125,7 +128,7 @@
 
         </td>
                 <td>
-        Ion channel, Kcsa
+        Ion channel, KcsA
         </td>
         </tr>
 
@@ -157,11 +160,11 @@
 			wid.setStyle({resi:['8-101']},{cartoon:{color:'blue'}});
 			wid.setStyle({resi:['102-184']},{cartoon:{color:'red'}});
 			wid.setStyle({resi:['201-306']},{cartoon:{color:'white'}});
-			wid.setStyle({resi:['401']},{stick:{colorscheme:"cyanCarbon"}})
-			wid.setStyle({resi:['166']},{stick:{colorscheme:"greenCarbon"}})
-			wid.setStyle({resi:['143']},{stick:{colorscheme:"greenCarbon"}})
-			wid.setStyle({resi:['1']},{stick:{colorscheme:"pinkCarbon"}})
-			wid.setStyle({resi:['305']},{stick:{colorscheme:"pinkCarbon"}})
+			wid.setStyle({resi:['401']},{stick:{colorscheme:"yellowCarbon"}})
+			wid.setStyle({resi:['166']},{stick:{colorscheme:"greenCarbon"},cartoon:{color:'red'}})
+			wid.setStyle({resi:['143']},{stick:{colorscheme:"greenCarbon"},cartoon:{color:'red'}})
+			wid.setStyle({resi:['1']},{stick:{colorscheme:"cyanCarbon"},cartoon:{color:'cyan'}})
+			wid.setStyle({resi:['305']},{stick:{colorscheme:"whiteCarbon"},cartoon:{color:'cyan'}})
 			wid.zoomTo();
 			wid.render();
 
