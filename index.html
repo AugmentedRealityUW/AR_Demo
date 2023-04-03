@@ -115,6 +115,8 @@
 			wid.setStyle({resi:['75','76','77','78']},{stick:{colorscheme:"cyanCarbon"}})
 			wid.setStyle({elem:'K'},{sphere: {scale: 0.7}})
 			wid.zoomTo();
+			wid.rotate(180,'y',1);
+			wid.rotate(270,'x',1);
 			wid.render();
 
 		});
@@ -156,6 +158,8 @@
 			wid.setStyle({resi:['102-184']},{cartoon:{color:'red'}});
 			wid.setStyle({resi:['201-306']},{cartoon:{color:'white'}});
 			wid.setStyle({resi:['401']},{stick:{colorscheme:"cyanCarbon"}})
+			wid.setStyle({resi:['166']},{stick:{colorscheme:"greenCarbon"}})
+			wid.setStyle({resi:['143']},{stick:{colorscheme:"greenCarbon"}})
 			wid.zoomTo();
 			wid.render();
 
